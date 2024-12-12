@@ -2,6 +2,11 @@
 
 This is the official repository for ANTS 2024 "EPIC-RAN: Evaluating Power in Container Clouds for Open Radio Access Networks" tutorial.
 
+## General Architecture
+
+The general architecture of the OAI-5G deployment is as follows:
+![Alt text](img/arch.png)
+
 ## OAI-5G deployment using Helm Charts
 
 OAI 5G deployments covers all the 3 scenarios of RAN, they are:
@@ -11,6 +16,7 @@ OAI 5G deployments covers all the 3 scenarios of RAN, they are:
 - CUPS
 
 ## Running the demo
+
 The first thing to do is to clone the repository and enter the directory:
 
 ```bash
