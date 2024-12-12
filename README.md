@@ -1,7 +1,7 @@
 # 2024-ants-tutorial-epic-ran
 
 <p align="center">
-  <img src="img/ieee-ants-full.png" alt="IEEE ANTS Logo" width="300"/>
+  <img src="img/ieee-ants-full.png" alt="IEEE ANTS Logo" width="500"/>
 </p>
 This is the official repository for ANTS 2024 "EPIC-RAN: Evaluating Power in Container Clouds for Open Radio Access Networks" tutorial.
 
