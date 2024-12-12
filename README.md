@@ -10,51 +10,40 @@ OAI 5G deployments covers all the 3 scenarios of RAN, they are:
 - Disaggregated
 - CUPS
 
-## Installation - Monolithic
+## Running the demo
+The first thing to do is to clone the repository and enter the directory:
 
 ```bash
 git clone https://github.com/Mellgood/2024-ants-tutorial-epic-ran.git
+cd 2024-ants-tutorial-epic-ran
 ```
+
+All the following commands should be executed from the root directory of the repository.
+
+### Installation - Monolithic
 
 ```bash
 cd monolithic
-```
-
-```bash
 ./deploy_oai.sh mono
 ```
 
 This will deploy the monolithic scenario, and it is successful if there is a ping from UE to CN, i.e, if this script executes successfully. The iperf3 test follows from the UE to the core automatically after a rest period.
 All data will flow to prometheus and will be available in grafana.
 
-## Installation - Disaggregated
-
-```bash
-git clone https://github.com/Mellgood/2024-ants-tutorial-epic-ran.git
-```
+### Installation - Disaggregated
 
 ```bash
 cd disaggregated
-```
-
-```bash
 ./deploy_oai.sh dis
 ```
 
 This will deploy the disaggregated scenario, and it is successful if there is a ping from UE to CN, i.e, if this script executes successfully. The iperf3 test follows from the UE to the core automatically after a rest period.
 All data will flow to prometheus and will be available in grafana.
 
-## Installation - CUPS
-
-```bash
-git clone https://github.com/Mellgood/2024-ants-tutorial-epic-ran.git
-```
+### Installation - CUPS
 
 ```bash
 cd cups
-```
-
-```bash
 ./deploy_oai.sh cups
 ```
 
