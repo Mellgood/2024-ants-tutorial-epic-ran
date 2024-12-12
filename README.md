@@ -1,11 +1,14 @@
 # 2024-ants-tutorial-epic-ran
 
+<p align="center">
+  <img src="img/ieee-ants-full.png" alt="IEEE ANTS Logo" width="300"/>
+</p>
 This is the official repository for ANTS 2024 "EPIC-RAN: Evaluating Power in Container Clouds for Open Radio Access Networks" tutorial.
 
 ## General Architecture
 
 The general architecture of the OAI-5G deployment is as follows:
-![Alt text](img/arch.png)
+![Alt The general architecture](img/arch.png)
 
 ## OAI-5G deployment using Helm Charts
 
