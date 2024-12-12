@@ -10,6 +10,14 @@ This is the official repository for ANTS 2024 "EPIC-RAN: Evaluating Power in Con
 The general architecture of the OAI-5G deployment is as follows:
 ![Alt The general architecture](img/arch.png)
 
+## Prerequisites
+
+- A Kubernetes cluster
+- Helm
+- Kubectl
+- Prometheus
+- Grafana
+
 ## OAI-5G deployment using Helm Charts
 
 OAI 5G deployments covers all the 3 scenarios of RAN, they are:
@@ -86,3 +94,12 @@ All data will flow to prometheus and will be available in grafana.
   organization={IEEE}
 }
 ```
+
+## Acknowledgements
+
+Thanks to my colleagues for their support and contributions to this work.
+
+- Jose Santos (Gent University)
+- Rajashekhar Reddy Tella (IIT Dharwad)
+- Venkateswarlu Gudepu (IIT Dharwad)
+- Andrea Marotta (University of L'Aquila)
