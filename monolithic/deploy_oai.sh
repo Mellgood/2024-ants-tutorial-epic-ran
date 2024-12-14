@@ -7,8 +7,8 @@ fi
 
 NAMESPACE=$1
 
-#cd oai-scripts
 cd oai-scripts
+
 ./start_core.sh $1
 sleep 20
 ./check_smf.sh $1
